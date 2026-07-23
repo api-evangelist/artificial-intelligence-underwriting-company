@@ -1,8 +1,26 @@
 aid: artificial-intelligence-underwriting-company
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/artificial-intelligence-underwriting-company.png
 name: Artificial Intelligence Underwriting Company
-description: 'Artificial Intelligence Underwriting Company is a company surfaced as a portfolio company
-  of emergence-capital and added to the API Evangelist network as a stub for enrichment. Sector: insurance-ai.
-  This profile is a lead awaiting the enrichment pipeline.'
+description: 'Artificial Intelligence Underwriting Company (AIUC) is a San Francisco-based
+  AI agent standards and insurance company that builds confidence infrastructure for
+  enterprises adopting AI agents. It pairs AIUC-1 — described as the world''s first AI
+  agent standard, spanning data & privacy, security, safety, reliability, accountability,
+  and societal risk — with insurance products that protect organizations against AI agent
+  failures. Developed with input from over 100 Fortune 500 CISOs and mapped to frameworks
+  including ISO 42001, NIST AI RMF, and MITRE ATLAS, AIUC certifies AI agents against
+  defined controls through accredited auditors. The company is backed by Emergence Capital
+  and does not currently publish a public API or developer surface.'
 url: https://raw.githubusercontent.com/api-evangelist/artificial-intelligence-underwriting-company/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Insurance Ai
+- Artificial Intelligence
+- AI Agents
+- Certification
+- Insurance
+- Governance
+- Standards
+- Security
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/artificial-intelligence-underwriting-company-domain-security.yml
 - type: Website
   url: https://www.aiuc.com
+- type: SignUp
+  url: https://www.aiuc.com/sign-up
+- type: Blog
+  url: https://www.aiuc.com/research
+- type: TermsOfService
+  url: https://www.aiuc.com/legal/terms
+- type: PrivacyPolicy
+  url: https://www.aiuc.com/legal/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
